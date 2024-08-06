@@ -15,8 +15,8 @@ color = 'red'; // Можно использовать как одинарные,
 
 
 // Array: Массив, который может содержать элементы одного типа.
-let list: number[] = [1, 2, 3];
-let list: Array<number> = [1, 2, 3]; // Альтернативный способ записи
+let list1: number[] = [1, 2, 3];
+let list2: Array<number> = [1, 2, 3]; // Альтернативный способ записи
 
 
 // Tuple: Кортеж, который представляет массив фиксированной длины с элементами разных типов.
@@ -61,6 +61,6 @@ let obj: object = {
 
 
 // Unknown: Тип, который представляет любое значение, подобно any, но требует проверки типа перед использованием.
-let notSure: unknown = 4;
-notSure = 'maybe a string instead';
-notSure = false; // OK, definitely a boolean
+let againNotSure: unknown = 4;
+againNotSure = 'maybe a string instead';
+againNotSure = false; // OK, definitely a boolean
